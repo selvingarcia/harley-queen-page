@@ -1,0 +1,25 @@
+.main{
+    height: 100px;
+}
+
+.main_title{
+    color: #E1D89F;
+    font-size: 29px;;
+}
+
+.input{
+    border: solid 2px white;
+    border-radius: 16px;
+    padding: 0px 10px;
+    height: 50px;
+    width: 70%;
+    background-color: rgba(115,37,36,0.3);
+    color: #AFACAC;
+    font-size: 16px;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 16px;
+    color: #AFACAC;
+}

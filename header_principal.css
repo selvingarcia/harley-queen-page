@@ -1,0 +1,60 @@
+    body{
+        margin: 0px;
+        background: #462255;
+        font-family: 'Muli', sans-serif;
+    }
+    .header{
+        height: 120px;
+        background: #AA4465;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__img{
+        width: 96px;
+       margin-top: 10px;
+       margin-left: 10px;
+       height: 100px;
+    }
+
+    .header__menu--login img{
+        width: 80px;
+    }
+    .header__menu--login {
+        display: flex;
+        align-items: center;
+        color: #C4E3FF;
+    }
+
+    .header__menu--login p {
+        margin: 0px;
+        
+    }
+
+    .header__menu  ul{
+        padding: 0px;
+        list-style: none;
+        display: none;
+    }
+    .header__menu ul li a{
+        text-decoration: none;
+    }
+    .header__menu:hover ul{
+        display: block;
+        text-align: right;
+        margin: 0px 0px 0px 14px;
+    }
+
+    .header__menu ul li a:hover{
+        text-decoration: underline;
+    }
+
+    .header__menu{
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+
+    .header__menu ul li a{
+        color: #C4E3FF;
+    }
+
